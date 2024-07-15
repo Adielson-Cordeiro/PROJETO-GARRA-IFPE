@@ -68,12 +68,10 @@ void loop() {
  myservo3.slowmove(valorPot1, 150);
  myservo4.slowmove(valorPot2, 150);
 
- //delay(200);
 
 
  if (statusSW) {
     Serial.println(" Botão: [Solto] ");
-    //delay(200);
   } else {
     for (pos = 0; pos <= 90; pos++){
      Serial.println(" Botão: [Apertado] ");
